@@ -1,6 +1,6 @@
-# dodgeball-scratch2
+# dodgeball
 
-![dodgeball-scratch2](banner.png)
+![dodgeball](/en/images/banner.png)
 
 Find the project online at [projects.raspberrypi.org/en/projects/dodgeball-scratch2](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2)
 

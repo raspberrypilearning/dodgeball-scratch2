@@ -1,58 +1,74 @@
+--- no-print ---
+
+This is the **Scratch 2** version of the project. There is also a [Scratch 3 version of the project](https://projects.raspberrypi.org/en/projects/dodgeball).
+
+--- /no-print ---
+
 ## Introduction
 
-Add project description here. What will learners be making?
-
-### What you will make
+You'll learn how to create a platform game in which the player has to dodge moving balls to reach the end of the level.
 
 --- no-print ---
-Add instructions for using the embedded content here.
+
+Click the green flag to start, and then use the arrow keys to move and the <kbd>space</kbd> key to jump.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/39740618/?autostart=false" frameborder="0"></iframe>
+  <img src="images/dodge-final.png">
 </div>
+
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+
+![dodgeball game being played](images/dodgeball-showcase.png)
+
 --- /print-only ---
 
 --- collapse ---
+
 ---
 title: What you will need
 ---
+
 ### Hardware
 
-+ Describe hardware here
++ A computer capable of running Scratch 2.0
 
 ### Software
 
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
++ Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
 
 ### Downloads
 
-+ [rpf.io/project-name-go](http://rpf.io/project-name-go){:target="_blank"}
+You can [find the downloads here](http://rpf.io/p/en/dodgeball-scratch2-go).
 
 --- /collapse ---
 
 --- collapse ---
+
 ---
 title: What you will learn
 ---
 
-+ Two or three learning objectives
-+ ...should go here
++ How to use the keyboard to control a sprite
++ How to use the `if, then, else`{:class="blockcontrol"} Scratch block
++ How to clone a sprite
 
 --- /collapse ---
 
 --- collapse ---
+
 ---
-title: Additional information for educators
+title: Additional notes for educators
 ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
+--- no-print ---
 
-[Here is a link to the resources for this project](http://rpf.io/project-name-go).
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/dodgeball-scratch2/print){:target="_blank"}.
+
+--- /no-print ---
+
+If you need the solution to this project, [you can find it here](http://rpf.io/p/en/dodgeball-scratch2-get).
 
 --- /collapse ---
