@@ -37,7 +37,7 @@ title: What you will need
 
 ### Software
 
-+ Scratch 2.0 [offline](https://scratch.mit.edu/scratch2download/)
++ Scratch 2.0 [offline](https://rpf.io/scratchoff)
 
 ### Downloads
 
