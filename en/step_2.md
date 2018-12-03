@@ -6,9 +6,7 @@ Start by creating a character that can move left and right, and can climb up lad
 
 Open the 'Dodgeball' Scratch starter project.
 
-**Online:** open the starter project at [rpf.io/dodgeball-on](http://rpf.io/dodgeball-on). 
-
-**Offline:** download the starter project from [rpf.io/dodgeball-off](http://rpf.io/dodgeball-off) and then open it using the offline editor.
+Download the starter project from [rpf.io/p/en/dodgeball-scratch2-go](http://rpf.io/p/en/dodgeball-scratch2-go) and then open it using the offline editor.
 
 --- /task ---
 
