@@ -24,15 +24,7 @@ Add code to your laser sprite to make it switch between its two costumes.
 
 ![laser sprite](images/laser_sprite.png)
 
-```blocks
-	when flag clicked
-	forever
-		switch costume to [on v]
-		wait (2) secs
-		switch costume to [off v]
-		wait (2) secs
-	end
-```
+![blocks_1545216273_6414285](images/blocks_1545216273_6414285.png)
 
 If you prefer, you can change the code shown above so that the sprite `waits`{:class="blockcontrol"} a `random`{:class="blockoperators"} amount of time between costume changes.
 
@@ -62,14 +54,7 @@ This is the code you should add:
 
 ![laser sprite](images/laser_sprite.png)
 
-```blocks
-when green flag clicked
-forever 
-  if <touching [Pico walking v] ?> then 
-    broadcast [hit v]
-  end
-end
-```
+![blocks_1545216274_7236795](images/blocks_1545216274_7236795.png)
 
 --- /hint ---
 

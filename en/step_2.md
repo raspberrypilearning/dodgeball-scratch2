@@ -29,16 +29,7 @@ Choose a new sprite as the character the player will control, and add it to your
 Add code blocks to your character sprite so that the player can use the arrow keys to move the character around. When the player presses the right arrow, the character should point right, move a few steps, and change to the next costume:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
-```blocks
-when flag clicked
-forever
-	if <key [right arrow v] pressed? > then
-		point in direction (90 v)
-		move (3) steps
-		next costume
-	end
-end
-```
+![blocks_1545216257_0709238](images/blocks_1545216257_0709238.png)
 
 --- /task ---
 
@@ -66,13 +57,7 @@ So that your character can move to the left, you'll need to add another `if`{:cl
 
 Copy the code you created to make the character walk to the right. Then set the `key pressed`{:class="blocksensing"} to the `left arrow`{:class="blocksensing"}, and change the `direction`{:class="blockmotion"} to `-90`.
 
-```blocks
-if <key [right arrow v] pressed? > then
-	point in direction (90 v)
-	move (3) steps
-	next costume
-end
-```
+![blocks_1545216258_1721418](images/blocks_1545216258_1721418.png)
 
 --- /hint ---
 
@@ -81,21 +66,7 @@ end
 Your code should look like this now:
 
 ![pico walking sprite](images/pico_walking_sprite.png)
-```blocks
-when green flag clicked
-forever 
-  if <key [right arrow v] pressed?> then 
-    point in direction (90 v)
-    move (3) steps
-    next costume
-  end
-  if <key [left arrow v] pressed?> then 
-    point in direction (-90 v)
-    move (3) steps
-    next costume
-  end
-end
-```
+![blocks_1545216259_276616](images/blocks_1545216259_276616.png)
 
 --- /hint ---
 
@@ -115,9 +86,7 @@ If so, you can fix this by clicking the `(i)`{:class="blocksensing"} icon on you
 
 Or if you prefer, you can also fix the problem by adding this block to the start of your character's script:
 
-```blocks
-set rotation style [left-right v]
-```
+![blocks_1545216260_3861587](images/blocks_1545216260_3861587.png)
 
 --- /task ---
 
@@ -129,11 +98,7 @@ Add inside your character's `forever`{:class="blockcontrol"} loop to `change`{:c
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
-```blocks
-	if < <key [up arrow v] pressed?> and <touching color [#FF69B4]?> > then
-		change y by (4)
-	end
-```
+![blocks_1545216261_4424717](images/blocks_1545216261_4424717.png)
 
 --- /task ---
 
