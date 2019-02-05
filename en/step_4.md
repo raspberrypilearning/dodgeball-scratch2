@@ -28,7 +28,13 @@ Add these new code blocks that set `gravity` to a negative number and use the va
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
-![blocks_1545216262_614379](images/blocks_1545216262_614379.png)
+```blocks
+	when flag clicked
+	set [gravity v] to [-4]
+	forever
+		change y by (gravity)
+	end
+```
 
 --- /task ---
 
@@ -46,7 +52,15 @@ Gravity shouldn't move the character sprite through a platform or a ladder! Add 
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
-![blocks_1545216263_6842906](images/blocks_1545216263_6842906.png)
+```blocks
+	when flag clicked
+	set [gravity v] to [-4]
+	forever
+		if < not < <touching color [#0000FF]?> or <touching color [#FF69B4]?> > > then
+			change y by (gravity)
+		end
+	end
+```
 
 --- /task ---
 
@@ -64,7 +78,12 @@ Now add code to make your character jump whenever the player presses the <kbd>sp
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
-![blocks_1545216264_804667](images/blocks_1545216264_804667.png)
+```blocks
+	when [space v] key pressed
+	repeat (10)
+		change y by (4)
+	end
+```
 
 Because gravity is constantly pushing your character down by 4 pixels, you need to choose a number greater than `4` in your `change y by (4)`{:class="blockmotion"} block. Change the number until you're happy with the height the character jumps.
 
@@ -88,7 +107,14 @@ Delete the jumping code you added to your character sprite, and add this code in
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
-![blocks_1545216265_8976815](images/blocks_1545216265_8976815.png)
+```blocks
+	when [space v] key pressed
+	set [jump height v] to [8]
+	repeat until < (jump height) = [0] >
+		change y by (jump height)
+		change [jump height v] by (-0.5)
+	end
+```
 
 This code moves your character up by 8 pixels, then 7.5 pixels, then 7 pixels, and so on, until it does not rise any higher. This makes jumping look much smoother.
 
