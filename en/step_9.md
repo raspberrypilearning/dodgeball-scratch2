@@ -12,4 +12,10 @@ You could even design another backdrop to create the next level. Then add code s
 
 ![pico walking sprite](images/pico_walking_sprite.png)
 
-![blocks_1545216275_8418067](images/blocks_1545216275_8418067.png)
+```blocks
+	if <touching color [#00FF00]?> then
+		switch backdrop to [next backdrop v]
+		go to x: (-210) y: (-120)
+		wait (1) secs
+	end
+```
